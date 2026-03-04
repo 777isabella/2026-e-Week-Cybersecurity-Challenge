@@ -2,7 +2,7 @@
 #sources: https://www.geeksforgeeks.org/dsa/introduction-to-merkle-tree/
 #https://brilliant.org/wiki/merkle-tree/
 
-"""merkle tree is a binary has tree used in blockchains to efficiently and
+"""merkle tree is a binary hash tree used in blockchains to efficiently and
 securely represent all transactions in a block. each transaction is hashed
 individually, the leaves, then pairs of hashes are combined and hashed again,
 level by level, until a single has remains .... the merkle root
@@ -173,4 +173,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
